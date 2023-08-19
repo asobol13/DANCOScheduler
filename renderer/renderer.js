@@ -4,7 +4,7 @@ import { BrowserWindow } from 'electron';
 const mainWindow = new BrowserWindow({
   width: 800,
   height: 600,
-  title: 'Danco Scheduler',
+  title: 'Danco Flight Department',
 });
 
 // Load the index.html file into the window.

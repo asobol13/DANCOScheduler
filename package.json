@@ -1,5 +1,5 @@
 {
-  "name": "dancoscheduler",
+  "name": "dancoflightdepartment",
   "version": "1.0.0",
   "description": "Scheduler for planes",
   "main": "main/main.js",
@@ -47,6 +47,8 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "electron-squirrel-startup": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
