@@ -1,8 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// app/index.js
 
-const App = () => {
-    return <h1 className="heading1">Hello, React!</h1>;
-  };
-  
-ReactDOM.render(<App />, document.getElementById('root'));
+import React from 'react'; // Import createRoot
+// import { createRoot } from 'react';
+import Page1 from '../components/Page1.js'; // Import the main component
+import '../resources/index.css';
+
+// Use createRoot instead of ReactDOM.render
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+root.render(<Page1 />);
