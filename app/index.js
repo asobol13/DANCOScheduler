@@ -2,7 +2,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import Page1 from '../components/Page1.js'; // Import the main component
-// import styles from '../resources/index.css';
 
 // Use createRoot instead of ReactDOM.render
 const rootElement = document.getElementById('root');
