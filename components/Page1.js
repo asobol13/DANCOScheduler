@@ -1,12 +1,13 @@
 import React from 'react';
-import Calendar from './Calendar';
+// import Calendar from './Calendar.js';
 
 const Page1 = () => {
   return (
     <div>
       <h2>Welcome User!</h2>
       <p>Page 1 of the application</p>
-      <Calendar />
+      <p>Calendar goes here</p>
+      {/* <Calendar/> */}
     </div>
   );
 };
