@@ -7,7 +7,7 @@ const Page1 = () => {
     <div>
       <Navbar />
       <h2>Welcome User!</h2>
-      <p>Page 1 of the application</p>
+      <p>Page 1 of the application. Not sure why below doesn't show up...</p>
       <p>Calendar goes here</p>
       <Calendar/>
     </div>

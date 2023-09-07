@@ -8,4 +8,4 @@ const mainWindow = new BrowserWindow({
 });
 
 // Load the index.html file into the window.
-mainWindow.loadFile('../browser/index.html');
+mainWindow.loadFile('../browser/login.html');

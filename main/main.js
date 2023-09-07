@@ -16,7 +16,7 @@ function createWindow() {
 
   mainWindow.webContents.openDevTools();
 
-  mainWindow.loadFile(path.join(__dirname, '../browser/index.html'));
+  mainWindow.loadFile(path.join(__dirname, '../browser/login.html'));
 
   mainWindow.on('closed', () => {
     mainWindow = null;
