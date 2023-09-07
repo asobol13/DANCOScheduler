@@ -1,16 +1,23 @@
-import React from 'react';
+import React from "react";
 
 const Login = () => {
   return (
-    <div>
+    <div className="loginSection">
       <h1>Logo Goes Here</h1>
       <h3>Please Login:</h3>
-      <label>
-        <input type="submit" value="Submit"/>
-      </label>
-      <label>
-        <input type="submit" value="Submit"/>
-      </label>
+      <form>
+        <label>
+          Username
+          <input type="text"/>
+        </label>
+        <label>
+          Password
+          <input type="text"/>
+        </label>
+        <label>
+          <input type="submit" value="Submit" />
+        </label>
+      </form>
     </div>
   );
 };
