@@ -8,11 +8,11 @@ const Login = () => {
       <form>
         <label>
           Username
-          <input type="text"/>
+          <input type="text" maxLength="30"/>
         </label>
         <label>
           Password
-          <input type="text"/>
+          <input type="text" maxLength="30"/>
         </label>
         <label>
           <input type="submit" value="Submit" />
