@@ -1,8 +1,10 @@
+// Whole page styling
 body {
     background-color: #e0ecff;
     text-align: center;
 }
 
+// Login page styling
 .loginSection {
     margin-top: auto;
     margin-bottom: auto;
@@ -23,3 +25,5 @@ input {
 .logTxt {
     width: 200px;
 }
+
+// Home page styling
