@@ -6,8 +6,8 @@ const Page1 = () => {
   return (
     <div>
       <Navbar />
-      <h1 id="welcomeMsg">Welcome User!</h1>
-      <Calendar/>
+      <h1>Welcome User!</h1>
+      <Calendar />
     </div>
   );
 };
