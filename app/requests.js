@@ -3,6 +3,6 @@ import { createRoot } from 'react-dom/client';
 import Request from '../components/requestsPage.js';
 
 // Use createRoot instead of ReactDOM.render
-const rootElement = document.getElementById('root');
-const root = createRoot(rootElement);
-root.render(<Request />);
+const rootElement3 = document.getElementById('root3');
+const root3 = createRoot(rootElement3);
+root3.render(<Request />);
