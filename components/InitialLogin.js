@@ -30,7 +30,7 @@ const Login = () => {
 
   if (!loggedIn) {
     return (
-      <div className="loginSection">
+      <div className="loginSection" style={{ textAlign: 'center' }}>
         <h1>Logo Goes Here</h1>
         <h3>Please Login:</h3>
         <form onSubmit={handleSubmit}>

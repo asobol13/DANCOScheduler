@@ -10,7 +10,7 @@ const Calendar = () => {
                 </div>
             </header>
             <div className="calendar">
-                <ul class="weeks">
+                <ul className="weeks">
                     <li>Sun</li>
                     <li>Mon</li>
                     <li>Tue</li>
