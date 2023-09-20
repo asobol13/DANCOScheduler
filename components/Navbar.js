@@ -7,16 +7,16 @@ const Navbar = () => {
         left: '0', backgroundColor: '#232323', transition: '.5 ease',
         overflowX: 'hidden', paddingTop: '20px', paddingBottom: '20px', 
         display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-            <div className="sectionOne" style={{ padding: '20px', color: 'white'}}>
+            <div className="sectionOne" style={{ padding: '20px'}}>
                 <a href="#section">Home</a>
             </div>
-            <div className="sectionTwo" style={{ padding: '20px', color: 'white'}}>
+            <div className="sectionTwo" style={{ padding: '20px'}}>
                 <a href="#section">Requests</a>
             </div>
-            <div className="sectionThree" style={{ padding: '20px', color: 'white'}}>
+            <div className="sectionThree" style={{ padding: '20px'}}>
                 <a href="#section">Maintenance</a>
             </div>
-            <div className="sectionFour" style={{ padding: '20px', color: 'white'}}>
+            <div className="sectionFour" style={{ padding: '20px'}}>
                 <a href="#section">Logout</a>
             </div>
         </div>
