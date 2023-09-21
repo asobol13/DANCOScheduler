@@ -15,7 +15,7 @@ const Calendar = () => {
   const daysArray = Array.from({ length: daysInMonth }, (_, i) => i + 1);
 
   return (
-    <div className="calendar-box"style={{ width: '300px',
+    <div className="calendar-box"style={{ width: '75%',
         border: '1px solid black', padding: '10px',
         boxShadow: '0 0 5px rgba(0, 0, 0, 0.2)', backgroundColor: '#fff'}}>
       <header>

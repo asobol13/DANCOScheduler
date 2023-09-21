@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Home from '../components/Home.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "../resources/index.css";
 
 const { USERNAME, PASSWORD } = process.env;
 
@@ -31,11 +33,12 @@ const Login = () => {
   if (!loggedIn) {
     return (
       <div className="loginSection" style={{ textAlign: 'center' }}>
-        <h1>Logo Goes Here</h1>
+        <img src="../resources/DancoGroupLogo.jpg" alt="Danco Group Logo" 
+        className="loginLogo" width="30%" height="30%"/>
+        <div className="container">
         <h3>Please Login:</h3>
         <form onSubmit={handleSubmit}>
-          <label>
-            Username
+          <label>Username</label>
             <input
               type="text"
               name="username"
@@ -44,9 +47,7 @@ const Login = () => {
               maxLength="30"
               required
             />
-          </label>
-          <label>
-            Password
+          <label>Password</label>
             <input
               type="password"
               name="password"
@@ -55,11 +56,11 @@ const Login = () => {
               maxLength="30"
               required
             />
-          </label>
           <label>
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit" className="btn btn-primary"/>
           </label>
         </form>
+        </div>
       </div>
     );
   } else {

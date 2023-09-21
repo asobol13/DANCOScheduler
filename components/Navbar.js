@@ -11,7 +11,7 @@ const Navbar = () => {
                 <a href="#section">Home</a>
             </div>
             <div className="sectionTwo" style={{ padding: '20px'}}>
-                <a href="#section">Requests</a>
+                <a href="#section" onclick="">Requests</a>
             </div>
             <div className="sectionThree" style={{ padding: '20px'}}>
                 <a href="#section">Maintenance</a>
