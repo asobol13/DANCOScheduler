@@ -33,24 +33,24 @@ const Login = () => {
   if (!loggedIn) {
     return (
       <div className="loginSection" style={{ textAlign: 'center' }}>
-        <img src="../resources/DancoGroupLogo.jpg" alt="Danco Group Logo" 
+        <img src="../resources/DancoGroupLogo.png" alt="Danco Group Logo" 
         className="loginLogo" width="30%" height="30%"/>
-        <div className="container">
+        <div className="card text-center">
         <h3>Please Login:</h3>
         <form onSubmit={handleSubmit}>
-          <label>Username</label>
             <input
               type="text"
               name="username"
+              placeholder="Username"
               value={formData.username}
               onChange={handleChange}
               maxLength="30"
               required
             />
-          <label>Password</label>
             <input
               type="password"
               name="password"
+              placeholder="Password"
               value={formData.password}
               onChange={handleChange}
               maxLength="30"
