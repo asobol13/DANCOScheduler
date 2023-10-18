@@ -13,8 +13,9 @@ function Navigation () {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className="navbar-nav">
                     <a className="nav-link" aria-current="page" href="/">Home</a>
-                    <a className="nav-link" href="/page1">Page1</a>
-                    <a className="nav-link" href="/page2">Page2</a>
+                    <a className="nav-link" href="/requests">Requests</a>
+                    <a className="nav-link" href="/maintenance">Maintenance</a>
+                    <a className="nav-link" href="/logout">Logout</a>
                 </div>
                 </div>
             </div>
