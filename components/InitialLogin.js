@@ -28,8 +28,8 @@ const Login = () => {
     if (username === USERNAME && password === PASSWORD){
       setLoggedIn(true);
     } else {
-      console.error("Authentication failed");
       setError("Username or password is incorrect. Please try again.");
+      console.error("Authentication failed");
     }
   };
 
@@ -44,6 +44,7 @@ const Login = () => {
             <input
               type="text"
               name="username"
+              className="form-control"
               placeholder="Username"
               value={formData.username}
               onChange={handleChange}
@@ -53,19 +54,21 @@ const Login = () => {
             <input
               type="password"
               name="password"
+              className="form-control"
               placeholder="Password"
               value={formData.password}
               onChange={handleChange}
-              maxLength="30"
+              maxLength="20"
               required
             />
           <label>
             <input type="submit" value="Submit" className="btn btn-primary"/>
           </label>
         </form>
-        {error && (<div className="alert alert-danger" role="alert">
-          {error}
-        </div>
+        {error && (
+          <div className="alert alert-danger" role="alert">
+            {error}
+          </div>
         )}
         </div>
       </div>
