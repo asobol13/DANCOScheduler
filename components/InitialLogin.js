@@ -19,6 +19,7 @@ const Login = () => {
       ...formData,
       [name]: value,
     });
+    setError("");
   };
 
   const handleSubmit = (e) => {
@@ -62,7 +63,10 @@ const Login = () => {
             <input type="submit" value="Submit" className="btn btn-primary"/>
           </label>
         </form>
-        {error && <p style={{ color: 'red' }}>{error}</p>}
+        {error && (<div className="alert alert-danger" role="alert">
+          {error}
+        </div>
+        )}
         </div>
       </div>
     );
