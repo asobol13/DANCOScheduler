@@ -4,13 +4,19 @@ import Calendar from './Calendar.js';
 
 const Page1 = () => {
   return (
-    <div style={{ flex: '2', display: 'flex', 
-    flexDirection: 'column',  justifyContent: 'center',
-    alignItems: 'center'}}>
-      <Navbar />
-      <h1>Welcome User!</h1>
-      <Calendar />
+    <div className="container-fluid">
+    <div className="row">
+        <Navbar />
+        <div className="col-md-10 ms-sm-auto">
+          <div className="container">
+            <h1>Welcome User!</h1>
+          </div>
+          <div className="container">
+            <Calendar />
+          </div>
+        </div>
     </div>
+</div>
   );
 };
 

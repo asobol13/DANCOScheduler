@@ -66,7 +66,7 @@ const Login = () => {
           </label>
         </form>
         {error && (
-          <div className="alert alert-danger" role="alert">
+          <div className="alert alert-danger" role="alert" style={{ margin: '10px' }}>
             {error}
           </div>
         )}
