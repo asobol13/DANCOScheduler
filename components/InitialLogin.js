@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Home from '../components/Home.js';
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../resources/index.css";
+import "../resources/globals.css";
 
 const { USERNAME, PASSWORD } = process.env;
 

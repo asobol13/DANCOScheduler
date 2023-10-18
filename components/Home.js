@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './Navbar.js';
+import Navbar from '../layouts/Navbar.js';
 import Calendar from './Calendar.js';
 
 const Page1 = () => {
