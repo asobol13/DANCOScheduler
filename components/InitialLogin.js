@@ -11,6 +11,7 @@ const Login = () => {
     password: "",
   });
   const [loggedIn, setLoggedIn] = useState(false);
+  const [error, setError] = useState("");
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,6 +28,7 @@ const Login = () => {
       setLoggedIn(true);
     } else {
       console.error("Authentication failed");
+      setError("Username or password is incorrect. Please try again.");
     }
   };
 
@@ -60,6 +62,7 @@ const Login = () => {
             <input type="submit" value="Submit" className="btn btn-primary"/>
           </label>
         </form>
+        {error && <p style={{ color: 'red' }}>{error}</p>}
         </div>
       </div>
     );
